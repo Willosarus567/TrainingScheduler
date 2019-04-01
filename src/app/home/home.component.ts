@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SignUpComponent } from "../common/auth/sign-up.component";
 
 @Component({
   selector: 'app-home',
@@ -8,6 +9,9 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   title = 'Training Scheduler';
 
-  constructor() { }
+ 
+
+  constructor() { 
+  }
 
 }
